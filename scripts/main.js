@@ -21,7 +21,7 @@ app.addEventListener("click", function(event){
 
 
 async function open_terminal(){
-  createText("Welcome");
+  // createText("Welcome");
   await delay(700);
   createText("Starting the server...");
   await delay(1500);
